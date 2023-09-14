@@ -7,11 +7,21 @@ const markdownFilter = require('./src/_11ty/filters/markdown-filter');
 const svgFilter = require('./src/_11ty/filters/svg-filter');
 const browserSyncConfig = require('./src/_11ty/utils/browser-sync-config');
 const { readableDateFilter, machineDateFilter } = require('./src/_11ty/filters/date-filters');
+const pluginMermaid = require("@kevingimbel/eleventy-plugin-mermaid");
+const markdownIt = require('markdown-it');
+const markdownItAnchor = require('markdown-it-anchor');
+const pluginTOC = require('@uncenter/eleventy-plugin-toc');
 
 module.exports = function (eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(pluginMermaid);
+  eleventyConfig.setLibrary(
+		'md',
+		markdownIt().use(markdownItAnchor),
+	);
+  eleventyConfig.addPlugin(pluginTOC);
 
   // Filters
   eleventyConfig.addFilter('markdown', markdownFilter);

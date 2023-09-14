@@ -4,6 +4,7 @@
   border-top: 3px solid var(--color-secondary);
   z-index: var(--z-header);
 
+
   :root[data-theme="dark"] & {
     border-color: var(--color-bg-accent-dark);
   }

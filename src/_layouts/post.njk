@@ -4,6 +4,9 @@ section: post
 ---
 <div class="page-container">
   <article>
+    <aside style="position:fixed">
+  {{ content | toc | safe }}
+    </aside>
     <h1>{{ title }}</h1>
     <p>
       <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time>
