@@ -1,0 +1,114 @@
+h1,h2,h3,h4,h5,h6,figcaption {
+    font-weight: normal;
+    font-family: 'helvar';}  
+
+.cours{
+    width: 75%;
+    margin: 0 auto;
+    figure {
+        margin:0 ;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        img{
+            margin: 0;
+            max-height: 80vh;
+        } 
+        figcaption {
+            font-size: 1.0625rem;
+            font-variation-settings: "wght" 740, "wdth" 100, "opsz" 4;
+            line-height: 1.5em;
+            margin-left: 2rem;
+            margin-right: 0.165rem;
+            text-wrap: nowrap;
+            strong {
+                font-size: 1.5rem;
+                line-height: 2rem;
+                font-variation-settings: "wght" 520, "wdth" 85, "opsz" 20;   
+            }
+            &::first-line{
+                font-size: 1.88125rem;
+                font-variation-settings: "wght" 475, "wdth" 50, "opsz" 4;
+            }
+        }
+    &:nth-of-type(even) {
+        flex-direction: row-reverse;
+        figcaption {
+            margin-right: 2rem;
+            margin-left: 0.165rem;
+            text-align: right;
+        }
+    }
+    }
+    p{
+        font-family: antonia-variable, sans-serif;
+        font-variation-settings: "opsz" 16.5714, "wght" 415;
+        font-variant-numeric: oldstyle-nums;
+        font-size: 2rem;
+        font-feature-settings: "dlig","calt","onum";
+        -webkit-hyphenate-limit-before: 4;
+        -webkit-hyphenate-limit-after: 4;
+        -webkit-hyphenate-limit-chars: 9 4 4;
+        -webkit-hyphenate-limit-lines: 2;
+        -webkit-hyphenate-limit-last: always;
+        -webkit-hyphenate-limit-zone: 8%;
+        -moz-hyphenate-limit-chars: 9 4 4;
+        -moz-hyphenate-limit-lines: 2;
+        -moz-hyphenate-limit-last: always;
+        -moz-hyphenate-limit-zone: 8%;
+        -ms-hyphenate-limit-chars: 9 4 4;
+        -ms-hyphenate-limit-lines: 2;
+        -ms-hyphenate-limit-last: always;
+        -ms-hyphenate-limit-zone: 8%;
+        hyphenate-limit-chars: 9 4 4;
+        hyphenate-limit-lines: 2;
+        hyphenate-limit-last: always;
+        hyphenate-limit-zone: 8%;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+        text-align: justify;
+        text-align: justify!important;
+        text-justify: inter-character!important;
+    }
+    h1{
+        counter-reset: H2;
+    }
+    h2{
+        &:before{
+          content: counter(H2, upper-roman) ".\00a0";
+          counter-increment: H2;
+          position: absolute;
+          width: 4rem;
+          text-align: right;
+          left: -4rem;
+         }
+        counter-reset: H3;
+        
+        font-size: 2.14375rem;
+        margin-left: 1.25rem;
+        font-variation-settings: "wght" 1000, "wdth" 100, "opsz" 4;
+        text-transform: uppercase;
+        position: relative;
+        hyphens: auto;
+    }
+    h3{
+        &:before{
+          content: counter(H3, upper-alpha) ".\00a0";
+          counter-increment: H3;
+          position: absolute;
+          width: 4rem;
+          text-align: right;
+          left: -4rem;
+         }
+        counter-reset: H4;
+        font-size: 1.325rem;
+        margin-left: 1.25rem;
+        font-variation-settings: "wght" 1000, "wdth" 100, "opsz" 4;
+        text-transform: uppercase;
+        position: relative;
+        hyphens: auto;
+    }
+
+    }

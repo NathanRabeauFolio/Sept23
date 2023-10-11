@@ -1,0 +1,6 @@
+{
+    "layout": "cours.njk",
+    "permalink": "cours/{{ urlPath or title | slug }}/index.html",
+    "tags": ["cours"]
+  }
+  

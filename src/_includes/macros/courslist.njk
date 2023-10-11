@@ -1,0 +1,31 @@
+{% macro courslist(cours, show_tags = true, limit) %}
+  <section>
+  {% for cours in cours %}
+    {% if limit === undefined or loop.index0 < limit %}
+      <article
+        class="cours-card {% if show_tags %}cours-card--tags{% endif %}"
+        {% if cours.url == url %} data-current="current item"{% endif %}
+      >
+        <a class="cours-card__link" href="{{ cours.url | url }}">
+          <h5 class="cours-card__title">{{ cours.data.title }}</h5>
+          {% if cours.data.summary %}
+            <p class="cours-card__summary">
+              {{ cours.data.summary }}
+            </p>
+          {% endif %}
+          {% if cours.data.tags and show_tags %}
+            <p class="tag-list">
+              {% for tag in cours.data.tags %}
+                {%- if tag != "post" -%}
+                  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+                <a class="tag" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+                {%- endif -%}
+              {% endfor %}
+            </p>
+          {% endif %}
+        </a>
+      </article>
+    {% endif %}
+  {% endfor %}
+  </section>
+{% endmacro %}
