@@ -1,18 +1,61 @@
-h1,h2,h3,h4,h5,h6,figcaption {
+h1,h2,h3,figcaption {
     font-weight: normal;
     font-family: 'helvar';}  
 
 .cours{
     width: 75%;
     margin: 0 auto;
+    .intro{
+        width: 120%;
+        margin-left: -10%;
+        margin-top: -10%;
+        position: relative;
+        height: 45vw;
+        overflow: hidden;
+        h1 {
+            position: absolute;
+            left: 8%;
+            bottom: 0;
+            width:84%
+        }
+        .thumbnails{
+            max-width: auto;
+            position: absolute;
+            left: 0%;
+            top: -9.5%;
+            filter: contrast(12.5);
+            img{
+                width: 100%;
+                max-width: 100%;
+                margin: 0 auto;
+                filter: brightness(0.5);
+            }
+            &::after{
+                --dot-size: 0.25vw;
+                background: radial-gradient(var(--dot-size) var(--dot-size),#000,#fff);
+                background-blend-mode: multiply;
+                background-size: var(--dot-size) var(--dot-size);
+                bottom: -100%;
+                content: "";
+                left: -100%;
+                mix-blend-mode: screen;
+                pointer-events: none;
+                position: absolute;
+                right: -100%;
+                top: -100%;
+                transform: rotate(27.5deg);
+            }
+        }
+    }
     figure {
         margin:0 ;
         display: flex;
         align-items: flex-end;
         justify-content: center;
+        margin-bottom: 3rem;
         img{
             margin: 0;
-            max-height: 80vh;
+            max-height: 100vh;
         } 
         figcaption {
             font-size: 1.0625rem;
@@ -73,21 +116,25 @@ h1,h2,h3,h4,h5,h6,figcaption {
         text-justify: inter-character!important;
     }
     h1{
+        font-size: 5.6128rem;
+        font-size: 9.08170117206rem;
+        font-variation-settings: "wght" 743.5, "wdth" 71, "opsz" 30;
+        line-height: .95;
         counter-reset: H2;
     }
     h2{
         &:before{
-          content: counter(H2, upper-roman) ".\00a0";
-          counter-increment: H2;
+          content: counter(H2, upper-roman) "."!important;
           position: absolute;
           width: 4rem;
           text-align: right;
-          left: -4rem;
+          left: -4.5rem;
+          padding-right: .5rem;
          }
+        counter-increment: H2;
         counter-reset: H3;
-        
         font-size: 2.14375rem;
-        margin-left: 1.25rem;
+        margin-left: 0rem;
         font-variation-settings: "wght" 1000, "wdth" 100, "opsz" 4;
         text-transform: uppercase;
         position: relative;
@@ -95,20 +142,29 @@ h1,h2,h3,h4,h5,h6,figcaption {
     }
     h3{
         &:before{
-          content: counter(H3, upper-alpha) ".\00a0";
+          content: counter(H3, upper-alpha) ".";
           counter-increment: H3;
           position: absolute;
           width: 4rem;
           text-align: right;
-          left: -4rem;
+          left: -4.5rem;
+          padding-right: .5rem;
          }
         counter-reset: H4;
         font-size: 1.325rem;
-        margin-left: 1.25rem;
+        margin-left: 0rem;
         font-variation-settings: "wght" 1000, "wdth" 100, "opsz" 4;
         text-transform: uppercase;
         position: relative;
         hyphens: auto;
+    }
+    h4{
+        font-family: antonia-variable, sans-serif;
+        font-style: italic;
+        font-variation-settings: "opsz" 25, "wght" 580;
+        font-size: 1.4268875rem;
+        font-size: 2rem;
+        counter-reset: H5;
     }
 
     }

@@ -4,14 +4,10 @@ urlPath: histoir
 metaDescription: Add code samples to your markdown files
 date: 2019-01-01T00:00:00.000Z
 summary: Add code samples to your markdown files
-
+image: /assets/img/histoire-du-graphisme-thumbnails.jpg
 tags:
   - communication
-
 ---
-| ![Billet de banque et sa Matrice dynastie yuan xylographiee 1287](/src/assets/img/histoire-du-graphisme-thumbnails.jpg) |
-|:--:|
-|*Billet de banque + Matrice • **dynastie yuan xylographiee** • 1287*|
 
 Le design graphique a été façonné par des circonstances **sociales**, **culturelles**, **politiques** et **technologiques** tout au long de son évolution. Les **hiéroglyphes égyptiens** ont été créés pour consigner l'histoire, taillés dans la pierre pour durer une éternité.
 L'**impression sur bois chinoise**, qui a débuté au III<sup>e</sup> siècle comme méthode d'impression sur tissu, a rendu possible la reproduction économique du texte et de l'image.
@@ -27,7 +23,6 @@ Le **papier**, inventé en **Chine** comme substitut pour l'impression sur tissu
 
 Bien que les Chinois aient initié les processus d'impression, les **Bibles européennes** ont continué à être rédigées avec des plumes pendant des siècles. Ce processus minutieux et chronophage était un rite religieux pour les moines qui servaient de copistes, éditeurs et enseignants, jusqu'à ce que **Johannes Gutenberg** imprime une Bible à l'aide de caractères mobiles. Chaque innovation reflétait les besoins culturels et économiques de la société qui l'a produite.
 Aujourd'hui ne fait pas exception. L'imagination des designers graphiques est guidée par les innovations et les besoins de la société contemporaine ; leurs créations sont le reflet des mondes **social**, **culturel** et **politique** dans lesquels ils vivent. En revenant sur l'histoire de leur art, les designers graphiques peuvent mieux comprendre leur propre travail dans un contexte élargi. Comme dans tout domaine, connaître l'histoire donne la connaissance et la liberté d'innover et de progresser.
-
 ## Graphisme et Révolution Industrielle
 Une accélération technologique a commencé à prendre racine en Europe à la fin des années 1700, alors que les économies passaient d'un travail manuel à une fabrication basée sur des machines. Des inventions telles que la **machine à vapeur**, perfectionnée par **James Watt (1736–1819)**, ont alimenté cette Révolution industrielle, particulièrement en Angleterre. Dès les années 1850, l'économie nationale anglaise était dominée par l'industrie, et la structure du pouvoir passait des propriétaires terriens aux industriels. Alors que les gens commençaient à affluer dans les villes pour travailler dans les usines, leur pouvoir d'achat augmentait. Les produits proposés à ces consommateurs se sont multipliés, tout comme la publicité. Journaux, magazines et affiches prospéraient.
 Pour les inventeurs européens, l'Angleterre était un débouché. **Nicholas Robert (1761–1828)** de France a conçu sa première machine pour fabriquer du papier en rouleau en 1799, conduisant à des brevets et à un développement ultérieur en Angleterre par les **Frères Fourdrinier**. L'impression à vapeur a rapidement suivi, introduite au Times de Londres en 1814 par un Allemand, **Friedrich Koenig (1774–1833)**. La fabrication du papier et la vitesse de la presse ont réduit le coût des promotions imprimées, les rendant ainsi plus accessibles au public. De ce fait, la conception des publicités et des prospectus est devenue une activité spécialisée, considérée comme une tâche distincte de l'impression et de la production. Les possibilités commerciales et artistiques se sont développées à mesure que la technologie à disposition des designers progressait.
@@ -36,7 +31,7 @@ Un autre développeur précoce du processus photographique, le scientifique angl
 La composition typographique évoluait également. Jusqu'au XIX<sup>e</sup> siècle, l'impression était principalement limitée aux livres. La Révolution industrielle a entraîné une demande de brochures imprimées, de publicités pour produits et d'affiches publicitaires. Une variété de polices d'affichage en bois a vu le jour, ainsi que des catalogues de spécimens de caractères. Jusqu'à ce moment-là, les prospectus ressemblaient aux pages de titre des livres, les types de livres étant simplement agrandis. Deux fondateurs anglais de caractères du XVIII<sup>e</sup> siècle comprennent **William Caslon (1692–1766)**, dont la police de 1724 était si distincte et lisible qu'elle a été utilisée pour la Déclaration d'indépendance, et l'imprimeur **John Baskerville (1706–1775)**, dont les polices ont été adoptées par le gouvernement américain pour ses publications.
 Dans la publicité, de nouvelles polices d'affichage ont été introduites. Les types Slab Serif en provenance de Grande-Bretagne ont été conçus pour aider les informations à se démarquer nettement. Ces polices étaient utilisées sur des pamphlets, des affiches et tout ce qui avait de courts passages de texte. Le designer de caractères britannique **Robert Thorne (d. 1820)** a inventé le terme "serifs égyptiens" pour décrire ces épais Slab Serifs parce que les formes des lettres rappelaient le poids et la rudesse des hiéroglyphes. En 1803, Thorne a développé ce qu'il appelait les polices Fat Face, qui avaient un aspect et un poids encore plus audacieux que les Égyptiens. Les Fat Faces séduisaient les annonceurs en raison de l'impact qu'elles créaient sur la page. De nombreuses variantes des Fat Faces ont rapidement suivi, notamment des italiques inclinées vers l'avant et vers l'arrière, des lettres en ligne, en ombre et en relief en trois dimensions.
 La composition des livres a également évolué avec la demande croissante à mesure que la littératie augmentait, et en 1886, l'inventeur allemand **Ottmar Mergenthaler (1854–1899)** a perfectionné ce qu'il appelait sa "machine Linotype". Le processus mécanique de composition de type a transformé l'industrie. La pose lente des caractères à la main, lettre par lettre, a été remplacée par une composition de type à partir d'un clavier et transmise à une série de matrices contenant des formes de lettres en laiton, qui coulaient des lignes de caractères en plomb ("line o' type").
-### Le Tournant du XX<sup>e</sup> siècle
+## Le Tournant du XXèm<sup>e</sup> siècle
 À mesure que la Révolution Industrielle progressait, des artistes, écrivains et critiques sociaux ont commencé à s'opposer aux effets déshumanisants de la mécanisation. Le critique le plus vocal, l'écrivain et peintre britannique **John Ruskin (1819–1896)**, croyait que le style gothique artisanal de la fin du Moyen Âge, avec toutes ses imperfections, méritait d'être ravivé comme moyen de compenser la nature mécanique ordinaire de la production de masse moderne. Le chapitre de Ruskin, "la Nature du Gothique", dans **The Stones of Venice, Vol. II (1851–1853)**, explique que nous devrions trouver une sorte de plaisir dans un objet qui a été fait avec plaisir.
 Les écrits de Ruskin ont inspiré un renouveau gothique en Angleterre et de l'autre côté de l'Atlantique, en Amérique. Le style gothique a imprégné l'art et le design dans les domaines de la peinture, de la sculpture, de la musique et de l'architecture. L'architecture était la forme d'art la plus importante et la plus originale pendant la période gothique. Le **Brooklyn Bridge (1883)**, conçu par l'immigrant allemand **John Augustus Roebling (1806–1869)**, est un grand exemple du style gothique, ses arches pointues contrastant avec le système de suspension en fil d'acier, le premier du genre et la technologie de construction leader de son époque.
 ### Mouvement Arts and Crafts (1880–1910)
@@ -116,27 +111,3 @@ Un autre diplômé de Cranbrook, **Ed Fella** (né en 1938) a apporté une quali
 Pionnière du design numérique, **April Greiman** (née en 1948) a été formée à la tradition moderniste. Dans les années 1970, elle a étudié à Bâle, en Suisse, avec **Armin Hofmann** et **Wolfgang Weingart**, posant ainsi les bases solides de son travail qui s'est aventuré dans le territoire informatique primitif. De retour aux États-Unis, Greiman s'est installée à Los Angeles où elle a intégré le spiritualisme et la philosophie orientale à son processus de design. Le résultat, stylistiquement appelé "California New Wave", a été initialement perçu comme un simple écart par rapport au travail neutre et axé sur la grille dans lequel la communauté du design était ancrée, mais le travail de Greiman est allé plus loin. Il a indiqué une nouvelle orientation conceptuelle pour le design graphique, orientée par la technologie. Sa mise en page pour le magazine Design Quarterly a fusionné une affiche de trois par six pieds avec les pages dépliées et a intégré son propre corps révélé et numérisé dans ce qu'elle appelait un "paysage de communications". Greiman voyait la technologie numérique comme un nouveau langage propre, et pensait que "utiliser ces outils pour imiter ce que nous savons déjà est dommage".
 **Tibor Kalman** (1949-1999), surnommé le bad boy du design graphique dans les années 1980, a remis en question le statu quo du design graphique avec esprit et humour. Ses graphismes rétro recontextualisés jetaient un regard en arrière avec une ironie postmoderne. Pour Kalman, le design graphique avait besoin d'un coup de pouce car son orientation vers le monde corporatif tuait l'esprit créatif. Une publicité pour un diner ouvert 24 heures sur 24 à New York, le **Restaurant Florent**, illustre la perspective unique de Kalman. Des lettres en plastique collées sur un tableau étaient les seuls éléments qu'il utilisait. Aussi simples soient-elles, elles communiquent succinctement la qualité quotidienne du diner sans fioritures inutiles. L'approche non conventionnelle de Kalman a élargi le champ du design en deux manières. Premièrement, elle a défié les designers à voir une énergie inattendue dans les langages vernaculaires non formés qu'ils évitaient normalement. Deuxièmement, son approche montrait que l'authenticité primait sur l'esthétique, surtout lorsqu'elle était utilisée dans un contexte conceptuel. Kalman a changé la pensée du design avec un flair à la Duchamp. Son travail montrait un sens distinct de l'humour et une forte responsabilité sociale, avec une critique ironique sur la nature de la consommation et de la production.
 Avec son approche ludique de la typographie, **Paula Scher** (née en 1948) a eu une grande influence dans le monde du design. Elle a créé des identités corporatives pour **Perry Ellis**, **Bloomberg**, **Target**, **Jazz at Lincoln Center**, **Detroit Symphony Orchestra**, **New York Botanical Garden** et d'autres. Scher affirme que son travail est influencé par la densité, la taille et le bruit de New York, ce qui la pousse à créer des designs denses, énergiques et audacieux. Pour **The Public Theater**, Scher a revitalisé les polices de caractères en bois audacieuses en inclinant leurs lignes de base. Le résultat est une série active d'affiches dont le traitement est devenu l'identité du Public Theater autant que le logo qu'elle a créé pour eux.
-
-## Expansion industrielle
-### Une réponse au tournant du siècle face à l˙industrialisation
-### Mouvement Arts and Crafts (1880-1910)
-### Esthétisme (1870-1914)
-### Art Nouveau (1890-1910)
-## Vers une sensibilité moderne
-### Le monde moderne
-### Cubisme (1907-1921)
-### Futurisme (1910-1918)
-### Suprématisme (1915-1934)
-### Dada (1916-1923)
-### Surréalisme (1924-1955)
-## Concevoir l˙utopie
-### Constructivisme (1919-1934)
-### De Stijl (1917-1931)
-### Bauhaus (1919-1933)
-### Le modernisme en Amérique
-### Design publicitaire et l˙école de New York
-## Postmodernisme et ère numérique
-### Naissance du postmodernisme
-### L˙essor du design numérique
-### Pionniers du design numérique
-### L˙évolution du design numérique

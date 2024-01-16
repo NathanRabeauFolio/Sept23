@@ -3,17 +3,18 @@ layout: base.njk
 section: post
 ---
 <div class="page-container">
-  <article>
-    <aside style="position:fixed">
-  {{ content | toc | safe }}
-    </aside>
+  <div class="page-container">
+  <article class="cours">
+<div class="intro">
+<picture class="thumbnails">
+      <img  loading="eager" decoding="async"  src="{{ image | url | safe }}" >
+</picture>
     <h1>{{ title }}</h1>
-    <p>
-      <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time>
-    </p>
-    <hr/>
+</div>
+{{ content | safe | replace("<table>", "<figure>") | replace("</table>", "</figure>")
+                       | replace("<em>", "<figcaption>") | replace("</em>", "</figcaption>")
+                       | replace("../","../../") | replace("•","<br>") | replace("˙","'") }}
 
-    {{ layoutContent | safe }}
 
     {% if tags %}
       <p class="tag-list">

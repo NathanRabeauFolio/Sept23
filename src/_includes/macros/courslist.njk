@@ -16,7 +16,7 @@
           {% if cours.data.tags and show_tags %}
             <p class="tag-list">
               {% for tag in cours.data.tags %}
-                {%- if tag != "post" -%}
+                {%- if tag != "cours" -%}
                   {% set tagUrl %}/tags/{{ tag }}/{% endset %}
                 <a class="tag" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
                 {%- endif -%}
