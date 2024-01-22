@@ -8,6 +8,7 @@ Turbolinks.start();
 // Initialize mobile nav drawer
 drawer();
 
+
 // Initialize dark mode toggle
 const { enableThemeSwitch } = document.documentElement.dataset;
 

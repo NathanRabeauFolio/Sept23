@@ -2,8 +2,22 @@
 layout: base.njk
 section: post
 ---
+<style>
+  .toc{position: fixed;  color: black;}
+  a {
+  text-decoration: none;
+  color: black;}
+  .active {
+  color: red;
+
+}
+</style>
+<aside>
+  {{ content | toc | safe}}
+</aside>
+   
 <div class="page-container">
-  <div class="page-container">
+
   <article class="cours">
 <div class="intro">
 <picture class="thumbnails">
@@ -13,7 +27,7 @@ section: post
 </div>
 {{ content | safe | replace("<table>", "<figure>") | replace("</table>", "</figure>")
                        | replace("<em>", "<figcaption>") | replace("</em>", "</figcaption>")
-                       | replace("../","../../") | replace("•","<br>") | replace("˙","'") }}
+                       | replace("../","../../") | replace("•","<br>") | replace("˙","'") | replace("#","") }}
 
 
     {% if tags %}
@@ -33,3 +47,5 @@ section: post
     <a href="{{ '/blog/' | url }}">← View All Articles</a>
   </nav>
 </div>
+
+

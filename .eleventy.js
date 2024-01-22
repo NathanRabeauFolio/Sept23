@@ -19,9 +19,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginMermaid);
   eleventyConfig.setLibrary(
 		'md',
-		markdownIt().use(markdownItAnchor),
-	);
-  eleventyConfig.addPlugin(pluginTOC);
+ markdownIt().use(markdownItAnchor),
+ );
+ eleventyConfig.addPlugin(pluginTOC);
 
   // Filters
   eleventyConfig.addFilter('markdown', markdownFilter);
